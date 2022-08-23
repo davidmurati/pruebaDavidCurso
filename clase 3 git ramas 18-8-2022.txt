@@ -37,3 +37,7 @@ cambiar nombre de la rama remota
 
 eliminar rama local
 *git branch -D *nombre de la rama
+
+
+comandos git
+https://www.hostinger.es/tutoriales/comandos-de-git
