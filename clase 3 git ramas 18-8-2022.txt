@@ -1,0 +1,39 @@
+codigo de git ramales
+
+ramas
+
+*git branch
+
+crear rama
+*git branch *nombre de la nueva rama
+
+cambiar de rama
+
+*git switch *nombre de la rama
+
+enviar la rama
+
+git push origin *nombre de la rama
+
+para pasar un archivo de una rama a otra
+me paro en la rama desactualizada 
+
+*git switch *nombre de la rama
+
+luego 
+
+*git merge *nombre de la rama 
+
+eliminar rama de github
+*git push origin --delete *nombre de la rama 
+
+cambiar nombre de la rama
+*git branch -m *nombre de la rama viejo *nomnre de la rama nuevo
+
+cambiar nombre de la rama remota
+
+*git branch --unset upstream *nombre de la rama remota que desconectaras
+*git push -u origin *nombre de la rama remota nueva
+
+eliminar rama local
+*git branch -D *nombre de la rama

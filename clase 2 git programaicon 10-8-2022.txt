@@ -1,0 +1,93 @@
+codigo de git
+
+git puede subir a github el codigo 
+
+*creas la carpeta donde vas a manipular tu archivo a git
+ejemplo C:\proyect\test\git\foo
+
+en esa carpeta realizas los comandos con el programa git bash
+
+*iniciar repositorio
+git init
+
+*crear archivo txt (bar y baz son nombres)
+touch bar.txt
+touch baz.txt
+
+*verificar status
+git status
+
+*seleccionar todos los archivos para compartir
+git add .
+
+*deseleccionar a todos los archivos
+git reset --
+
+*seleccionar solo un archivo (bar.txt es un archivo ejemplo txt)
+git add bar.txt
+
+*deseleccionar solo un archivo
+git reset bar.txt
+
+luego de selecionar tienes que enviar el mensaje
+
+*enviar mensaje
+git commit -m "el mensaje"
+
+el mensaje genera un codigo o un id 
+
+*para ver el paquete que se va enviar
+git log
+
+*ver informacion (me falta entenderlo mejor)
+git config -l
+
+*modificar el mensaje del paquete
+git commit --amend -m "el mensaje nuevo"
+
+si es el primer mensaje debe decir fc o primer commit
+
+para subir a github coloco la ruta creada en github en el repositorio que quieres
+
+si no tines el repositorio creas un nuevo repositorio en github
+
+*se debe conectar el servicio local git con el remoto github
+
+*ver coneccion
+git remote -v
+
+*agregar coneccion a github
+git remote add origin *agregas la direccion de github
+
+*fetch descarga
+*push subir
+
+*para enviar el paquete a github 
+git push -u origin master (el -u solo se usa para la primera subida)
+
+*modificar el nombre master por main (puede ser otro nombre que no sea main)
+git branch -M main 
+
+*ver los archivos
+dir o dir -l
+
+
+*para enviar el paquete a github (cuando no es primera vez)
+git push
+
+*archivo oculto
+touch .gitkeep
+
+esto es por si quieres enviar una carpeta vacia
+
+*limpias la pantalla 
+clear
+
+*ir a un comit anterior
+HEAD HEAD-1 (retrocedes al anterior) o HEAD *codigo del commit 
+
+
+si no identifica tu usuario tienes que señalarlo
+ git config --global user.name "David Murati"
+ git config --global user.email "davidmurati1.com"
+
